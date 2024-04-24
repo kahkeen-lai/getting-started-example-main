@@ -24,18 +24,13 @@
   },
   "targetDefaults": {
     "build": {
-      "inputs": [
-        "prod",
-        "^prod"
-      ],
       "dependsOn": [
         "^build"
       ]
     },
     "test": {
-      "inputs": [
-        "default",
-        "^prod"
+      "dependsOn": [
+        "^test"
       ]
     },
     "dev": {
