@@ -1,6 +1,6 @@
 {
   "name": "footer",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -23,5 +23,5 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "gitHead": "a9613cc517e858b5532bf11fda75770640925ea2"
+  "gitHead": "434e76a3c160f3bf6b9953ac7d891114cc9124ea"
 }
